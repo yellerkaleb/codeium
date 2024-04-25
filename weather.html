@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Map</title>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="map"></div>
+  <div id="search">
+    <input type="text" id="locationInput" placeholder="Enter city name" list="cities" onfocus="this.value='';">
+    <button onclick="searchLocation()">Search</button>
+  </div>
+  <div id="weatherInfo">
+    <h2 id="cityName"></h2>
+    <div id="weatherDescription"></div>
+    <div id="temperature" style="margin-top: 20px;"></div>
+  </div>
+  <div id="sliderContainer" style="margin-top: 20px;">
+    <input type="range" id="slider" min="0" max="143" value="0" step="1">
+    <p id="temperature"></p>
+    <button id="playPauseBtn">Play</button>
+  </div>
+
+  <div id="activity">
+    <input type="text" id="activityInput" placeholder="Enter your activity" value='{"maxTemperature":70,"minTemperature":60,"activity": "Hike","startHour": 10, "endHour": 20}'>
+    <button onclick="checkWeatherConflict()">Check Conflict</button>
+    <div id="conflicts" style="margin-top: 20px;white-space: pre;"></div>
+  </div>
+
+
+
+  <datalist id="cities">
+    <option value="San Diego">San Diego</option>
+    <option value="San Francisco">San Francisco</option>
+    <option value="Los Angeles">Los Angeles</option>
+</datalist>                        
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

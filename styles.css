@@ -1,0 +1,21 @@
+/* styles.css */
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+#search, #activity {
+  margin-top: 20px;
+}
+
+#weatherInfo {
+  margin-top: 20px;
+}
+
+#temperature {
+  font-size: 24px;
+}
+
+#weatherDescription {
+  font-style: italic;
+}

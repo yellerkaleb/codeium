@@ -3,7 +3,7 @@ Frontend Engineer Take-Home Interview
 
 ⏳Duration: 3 hours
 
-💻Stack: React
+💻Stack: React (other stacks acceptable)
 
 Welcome to the frontend engineer take-home interview! Thanks for taking the time to go through this
 interview process. In this exercise, you are tasked with building a weather map, a web application

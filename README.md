@@ -1,17 +1,23 @@
 Codeium Interview: Weather Map
 Frontend Engineer Take-Home Interview
+
 ⏳Duration: 3 hours
+
 💻Stack: React
+
 Welcome to the frontend engineer take-home interview! Thanks for taking the time to go through this
 interview process. In this exercise, you are tasked with building a weather map, a web application
 that allows users to view the current weather for a selected city and how it conflicts with a
 planned activity.
+
 The primary goal is to assess your ability to ship a functional product quickly, without heavy support
 from product management or design teams. Functionality favored over cosmetics, but if you have time,
 please spend some time on UI/UX polish.
+
 Codeium builds with React so this is the preferred stack. Ideally this can be done in TypeScript. Using a
 boilerplate like NextJS, ViteJS, or CRA can help, though this is up to you. We also use Tailwind and
 TailwindUI internally.
+
 We highly recommend you build off of a design system’s component library so that you can get a v1 off
 the ground quickly or a boilerplate (create next app, create react app, etc). Please refrain from finding
 an existing or similar solution online and cloning/forking the repo. Some suggestions: Material,
